@@ -1,9 +1,10 @@
 module github.com/criticic/cupid-backend
 
-go 1.22.1
+go 1.22.2
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
+	github.com/gofiber/fiber/v3 v3.0.0-beta.2
 	google.golang.org/api v0.114.0
 )
 
@@ -18,7 +19,6 @@ require (
 	firebase.google.com/go/v4 v4.13.0 // indirect
 	github.com/MicahParks/keyfunc v1.9.0 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
-	github.com/gofiber/fiber/v3 v3.0.0-beta.2 // indirect
 	github.com/gofiber/utils/v2 v2.0.0-beta.4 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
