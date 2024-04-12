@@ -23,6 +23,9 @@ func main() {
 	auth := app.Group("/auth")
 	auth.Get("/signin", controllers.SignIn)
 
+	onboarding := app.Group("/onboarding")
+	onboarding.Get("/username", controllers.GetUsername)
+
 	// Start the server on port 3000.
 	log.Fatal(app.Listen(":3000"))
 }
